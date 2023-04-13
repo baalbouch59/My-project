@@ -28,7 +28,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
       
-   - name: Log in to Docker Hub
+    - name: Log in to Docker Hub
       uses: mr-smithers-excellent/docker-build-push@v
       with:
         image: aalbouch/demo-app
